@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`5. Snapshot test tests NewQuestion page with snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container mt-4 text-center"
+      >
+        <h1>
+          Would You Rather
+        </h1>
+        <p>
+          Create your own poll
+        </p>
+        <label
+          class="form-label"
+          for="question1"
+        >
+          First Option:
+        </label>
+        <input
+          class="form-control"
+          data-testid="option-one"
+          placeholder="First option.."
+          type="text"
+          value=""
+        />
+        <label
+          class="form-label"
+          for="question2"
+        >
+          Second Option:
+        </label>
+        <input
+          class="form-control"
+          data-testid="option-two"
+          placeholder="Second option.."
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary my-3"
+          data-testid="submit-btn"
+          type="button"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container mt-4 text-center"
+    >
+      <h1>
+        Would You Rather
+      </h1>
+      <p>
+        Create your own poll
+      </p>
+      <label
+        class="form-label"
+        for="question1"
+      >
+        First Option:
+      </label>
+      <input
+        class="form-control"
+        data-testid="option-one"
+        placeholder="First option.."
+        type="text"
+        value=""
+      />
+      <label
+        class="form-label"
+        for="question2"
+      >
+        Second Option:
+      </label>
+      <input
+        class="form-control"
+        data-testid="option-two"
+        placeholder="Second option.."
+        type="text"
+        value=""
+      />
+      <button
+        class="btn btn-primary my-3"
+        data-testid="submit-btn"
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`5. Snapshot tests for components: New Question Page to match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container mt-4 text-center"
+      >
+        <h1>
+          Would You Rather
+        </h1>
+        <p>
+          Create your own poll
+        </p>
+        <label
+          class="form-label"
+          for="question1"
+        >
+          First Option:
+        </label>
+        <input
+          class="form-control"
+          data-testid="option-one"
+          placeholder="First option.."
+          type="text"
+          value=""
+        />
+        <label
+          class="form-label"
+          for="question2"
+        >
+          Second Option:
+        </label>
+        <input
+          class="form-control"
+          data-testid="option-two"
+          placeholder="Second option.."
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-primary my-3"
+          data-testid="submit-btn"
+          type="button"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container mt-4 text-center"
+    >
+      <h1>
+        Would You Rather
+      </h1>
+      <p>
+        Create your own poll
+      </p>
+      <label
+        class="form-label"
+        for="question1"
+      >
+        First Option:
+      </label>
+      <input
+        class="form-control"
+        data-testid="option-one"
+        placeholder="First option.."
+        type="text"
+        value=""
+      />
+      <label
+        class="form-label"
+        for="question2"
+      >
+        Second Option:
+      </label>
+      <input
+        class="form-control"
+        data-testid="option-two"
+        placeholder="Second option.."
+        type="text"
+        value=""
+      />
+      <button
+        class="btn btn-primary my-3"
+        data-testid="submit-btn"
+        type="button"
+      >
+        Submit
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`7. Snapshot test for home page Home Page to match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="container"
+      >
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <h3
+            class="text-center mt-5"
+          >
+            New Questions
+          </h3>
+          <div
+            class="bg-body rounded shadow-sm"
+          >
+            <div
+              class="card-group"
+            />
+          </div>
+        </div>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <h3
+            class="text-center mt-5"
+          >
+            Done
+          </h3>
+          <div
+            class="bg-body rounded shadow-sm"
+          >
+            <div
+              class="card-group"
+            >
+              <div
+                class="mt-5 card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    <h6
+                      class="mb-0"
+                    >
+                      Mike Tsamis
+                    </h6>
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    <small
+                      class="opacity-50 text-nowrap"
+                    >
+                      Thu Jul 14 2016
+                    </small>
+                  </p>
+                  <a
+                    aria-current="true"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                    href="/questions/6ni6ok3ym7mf1p33lnez"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Show
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="mt-5 card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    <h6
+                      class="mb-0"
+                    >
+                      Sarah Edo
+                    </h6>
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    <small
+                      class="opacity-50 text-nowrap"
+                    >
+                      Wed Jun 29 2016
+                    </small>
+                  </p>
+                  <a
+                    aria-current="true"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                    href="/questions/8xf0y6ziyjabvozdd253nd"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Show
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="container"
+    >
+      <div
+        class="bg-body rounded shadow-sm"
+      >
+        <h3
+          class="text-center mt-5"
+        >
+          New Questions
+        </h3>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <div
+            class="card-group"
+          />
+        </div>
+      </div>
+      <div
+        class="bg-body rounded shadow-sm"
+      >
+        <h3
+          class="text-center mt-5"
+        >
+          Done
+        </h3>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <div
+            class="card-group"
+          >
+            <div
+              class="mt-5 card"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  <h6
+                    class="mb-0"
+                  >
+                    Mike Tsamis
+                  </h6>
+                </div>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="opacity-50 text-nowrap"
+                  >
+                    Thu Jul 14 2016
+                  </small>
+                </p>
+                <a
+                  aria-current="true"
+                  class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                  href="/questions/6ni6ok3ym7mf1p33lnez"
+                >
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                  >
+                    Show
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="mt-5 card"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  <h6
+                    class="mb-0"
+                  >
+                    Sarah Edo
+                  </h6>
+                </div>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="opacity-50 text-nowrap"
+                  >
+                    Wed Jun 29 2016
+                  </small>
+                </p>
+                <a
+                  aria-current="true"
+                  class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                  href="/questions/8xf0y6ziyjabvozdd253nd"
+                >
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                  >
+                    Show
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`7. Snapshot tests for components: New Question Page to match snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <main
+        class="container"
+      >
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <h3
+            class="text-center mt-5"
+          >
+            New Questions
+          </h3>
+          <div
+            class="bg-body rounded shadow-sm"
+          >
+            <div
+              class="card-group"
+            />
+          </div>
+        </div>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <h3
+            class="text-center mt-5"
+          >
+            Done
+          </h3>
+          <div
+            class="bg-body rounded shadow-sm"
+          >
+            <div
+              class="card-group"
+            >
+              <div
+                class="mt-5 card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    <h6
+                      class="mb-0"
+                    >
+                      Mike Tsamis
+                    </h6>
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    <small
+                      class="opacity-50 text-nowrap"
+                    >
+                      Thu Jul 14 2016
+                    </small>
+                  </p>
+                  <a
+                    aria-current="true"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                    href="/questions/6ni6ok3ym7mf1p33lnez"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Show
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="mt-5 card"
+              >
+                <div
+                  class="card-body"
+                >
+                  <div
+                    class="card-title h5"
+                  >
+                    <h6
+                      class="mb-0"
+                    >
+                      Sarah Edo
+                    </h6>
+                  </div>
+                  <p
+                    class="card-text"
+                  >
+                    <small
+                      class="opacity-50 text-nowrap"
+                    >
+                      Wed Jun 29 2016
+                    </small>
+                  </p>
+                  <a
+                    aria-current="true"
+                    class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                    href="/questions/8xf0y6ziyjabvozdd253nd"
+                  >
+                    <button
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Show
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main
+      class="container"
+    >
+      <div
+        class="bg-body rounded shadow-sm"
+      >
+        <h3
+          class="text-center mt-5"
+        >
+          New Questions
+        </h3>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <div
+            class="card-group"
+          />
+        </div>
+      </div>
+      <div
+        class="bg-body rounded shadow-sm"
+      >
+        <h3
+          class="text-center mt-5"
+        >
+          Done
+        </h3>
+        <div
+          class="bg-body rounded shadow-sm"
+        >
+          <div
+            class="card-group"
+          >
+            <div
+              class="mt-5 card"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  <h6
+                    class="mb-0"
+                  >
+                    Mike Tsamis
+                  </h6>
+                </div>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="opacity-50 text-nowrap"
+                  >
+                    Thu Jul 14 2016
+                  </small>
+                </p>
+                <a
+                  aria-current="true"
+                  class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                  href="/questions/6ni6ok3ym7mf1p33lnez"
+                >
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                  >
+                    Show
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="mt-5 card"
+            >
+              <div
+                class="card-body"
+              >
+                <div
+                  class="card-title h5"
+                >
+                  <h6
+                    class="mb-0"
+                  >
+                    Sarah Edo
+                  </h6>
+                </div>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="opacity-50 text-nowrap"
+                  >
+                    Wed Jun 29 2016
+                  </small>
+                </p>
+                <a
+                  aria-current="true"
+                  class="list-group-item list-group-item-action d-flex gap-3 py-3"
+                  href="/questions/8xf0y6ziyjabvozdd253nd"
+                >
+                  <button
+                    class="btn btn-primary"
+                    type="button"
+                  >
+                    Show
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
