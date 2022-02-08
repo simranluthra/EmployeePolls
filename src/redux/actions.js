@@ -16,10 +16,11 @@ export function loadInitialData() {
   };
 }
 
-export function saveQuestionAnswer({ authedUser, qid, answer }) {
+export function saveQuestionAnswer({ authedUser, qid, answer, users }) {
   return (dispatch) => {
-    return _saveQuestionAnswer({ authedUser, qid, answer }).then(
+    return _saveQuestionAnswer({ authedUser, qid, answer, users }).then(
       ({ users, questions }) => {
+        console.log("action.js", users);
         dispatch({
           type: "GET_QUESTIONS",
           questions

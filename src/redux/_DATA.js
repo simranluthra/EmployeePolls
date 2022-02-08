@@ -185,12 +185,12 @@ export function _saveQuestion(question) {
   });
 }
 
-export function _saveQuestionAnswer({ authedUser, qid, answer }) {
+export function _saveQuestionAnswer({ authedUser, qid, answer, users }) {
   return new Promise((resolve, reject) => {
     if (!authedUser || !qid || !answer) {
       reject("Please provide authedUser, qid, and answer");
     }
-
+    console.log("data.js", users);
     setTimeout(() => {
       users = {
         ...users,

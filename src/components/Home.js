@@ -31,20 +31,20 @@ const Home = (props) => {
     <main className="container">
       <div className="bg-body rounded shadow-sm">
       <Tabs defaultActiveKey="UnansweredQuestions" id="uncontrolled-tab-example" className="mb-2 mt-5">
-        <Tab title="UnansweredQuestions">
-          <div className="bg-body rounded shadow-sm">
-            <CardGroup>
-              <Row className="g-4 w-100">
-                <Col>
-                    {unAnsweredQuestions.map((question) => {
-                      return <QuestionRow key={question.id} question={question} users={users} />;
-                    })}
-                </Col>
-              </Row>
-            </CardGroup>
-          </div>
+        <Tab eventKey="UnansweredQuestions" title="UnansweredQuestions">
+        <div className="bg-body rounded shadow-sm">
+          <CardGroup>
+            <Row className="g-4 w-100">
+              <Col>
+                  {unAnsweredQuestions.map((question) => {
+                    return <QuestionRow key={question.id} question={question} users={users} />;
+                  })}
+              </Col>
+            </Row>
+          </CardGroup>
+        </div>
         </Tab>
-        <Tab title="answeredQuestions">
+        <Tab eventKey="answeredQuestions" title="answeredQuestions">
               <CardGroup>
                 <Row className="g-4 w-100">
                   <Col>

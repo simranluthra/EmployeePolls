@@ -26,17 +26,18 @@ const Login = (props) => {
 
   useEffect(() => {
     if (Object.values(props.users).length > 0) {
-      const randomUser = users[Math.floor(Math.random() * users.length)];
+      const userValues = Object.values(props.users);
+      const randomUser = userValues[Math.floor(Math.random() * userValues.length)];
       setUser(randomUser);
       setPassword(randomUser.password);
     }
-  }, [props.users, users]);
+  }, [props.users]);
 
   const handleOnSelectUser = (e) => {
     const userId = e.target.value;
-    const { password } = users.find((user) => user.id === userId);
-    setUser(props.users[userId]);
-    setPassword(password);
+    const newUser = props.users[userId];
+    setUser(newUser);
+    setPassword(newUser.password);
   };
 
   const isVerified = async (userId, pass) => {
@@ -85,8 +86,8 @@ const Login = (props) => {
             (users.length === 0 && (
               <option value="loading" disabled>Select User</option>
             ))}
-          {users.map((user) => (
-            <option key={`${user.id}-${user.name}`} value={user.id}>
+          {users.map((user, i) => (
+            <option key={`${user.id}-${i}`} value={user.id}>
               {user.name}
             </option>
           ))}

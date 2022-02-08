@@ -1,5 +1,6 @@
 const Leaderboard = (props) => {
   const { users = {} } = props;
+  console.log("hello", users);
   const sortedUsers = Object.values(users).sort((userX, userY) => (
       (Object.entries(userY.answers).length + userY.questions.length) -
       (Object.entries(userX.answers).length + userX.questions.length)

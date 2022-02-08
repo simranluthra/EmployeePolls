@@ -44,7 +44,7 @@ const QuestionDetails = () => {
 
   function handleVote(answer) {
     setMyAnswer(answer);
-    dispatch(saveQuestionAnswer({ authedUser, qid, answer }));
+    dispatch(saveQuestionAnswer({ authedUser, qid, answer, users }));
   }
 
   function getVotes(option) {
