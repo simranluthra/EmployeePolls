@@ -3,8 +3,6 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import '../App.css';
 
-import logoheader from "../assets/main-logo.jpg";
-
 const Login = (props) => {
   const users = Object.values(props?.users ?? {});
 
@@ -20,7 +18,7 @@ const Login = (props) => {
   useEffect(() => {
     const redirectTo = window.location.pathname.includes("/questions/")
       ? pathname
-      : "/";
+      : pathname;
     setRedirectTo(redirectTo);
   }, [pathname]);
 

@@ -32,9 +32,9 @@ const Header = (props) => {
       <div className="container-fluid">
         <div className="d-flex justify-content-between">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            {navItems.map((item) => {
+            {navItems.map((item, index) => {
               return (
-                <li className="nav-item">
+                <li className="nav-item" key={`${item.title}-${index}`}>
                   <Link className="nav-link active" to={item.link}>
                     {item.title}
                   </Link>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
+import { PageNotFound } from ".";
 
 import { saveQuestionAnswer } from "../redux/actions";
 
@@ -17,8 +18,6 @@ const QuestionDetails = () => {
 
   const isValidQid = Object.keys(questions).some((questionId) => questionId === qid);
   const question = questions[qid];
-  const author = users[question.author];
-  const disabled = myAnswer ? true : false;
 
   useEffect(() => {
     if (!authedUser) {
@@ -27,12 +26,18 @@ const QuestionDetails = () => {
   }, [authedUser, navigate]);
 
   useEffect(() => {
-    if (question.optionOne.votes.some((id) => id === authedUser)) {
-      setMyAnswer(optionOne);
-    } else if (question.optionTwo.votes.some((id) => id === authedUser)) {
-      setMyAnswer(optionTwo);
+    if (question) {
+      if (question.optionOne.votes.some((id) => id === authedUser)) {
+        setMyAnswer(optionOne);
+      } else if (question.optionTwo.votes.some((id) => id === authedUser)) {
+        setMyAnswer(optionTwo);
+      }
     }
-  }, [authedUser, question.optionOne.votes, question.optionTwo.votes]);
+  }, [authedUser, question]);
+
+  if (!question) return <PageNotFound />;
+  const author = users[question.author];
+  const disabled = myAnswer ? true : false;
 
   if (!isValidQid) {
     return (

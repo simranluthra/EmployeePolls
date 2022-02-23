@@ -21,12 +21,11 @@ const Router = ({ redirect }) => {
   useEffect(() => dispatch(loadInitialData()), [dispatch]);
   useEffect(() => setUser(users[authedUser]), [authedUser, users]);
   
-
   return (
     <BrowserRouter>
       <Header currentUser={user} />
       <Routes>
-        {user == null ? (
+        {!user ? (
           <Route
             path="*"
             element={<Login users={users} redirectTo={redirect} />}
